@@ -35,7 +35,7 @@ public class Uss
         keha.Insert(0, uusPea);
         uusPea.Joonista();
 
-        // Оптимизация роста: если змейка съела еду, флага увеличивается, и мы НЕ удаляем хвост
+        // Оптимизация роста
         if (peabKasvama)
         {
             peabKasvama = false;
@@ -58,7 +58,7 @@ public class Uss
         peabKasvama = true;
     }
 
-    // Дополнительное задание: проверка самопересечения
+    //самопересечениe
     public bool HammustasEnnast()
     {
         Punkt pea = HangiPea();
